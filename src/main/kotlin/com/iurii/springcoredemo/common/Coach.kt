@@ -1,4 +1,4 @@
-package com.iurii.springcoredemo
+package com.iurii.springcoredemo.common
 
 interface Coach {
 
