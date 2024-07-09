@@ -18,7 +18,7 @@ class TrackCoach : Coach {
 
     @PreDestroy
     fun onDestroy() {
-        println("In @PreDestroy method. The bean is about to be destroyed.")
+        println("In @PreDestroy method. The bean is about to be destroyed. Of course if the scope is not prototype.")
     }
 
     override fun getDailyWorkout() = "Run a hard 5k!"
